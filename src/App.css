@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#image1{
+    background-image: url('https://reacy-gym-page.netlify.app/static/media/h1_hero.603affff34c426e68b67.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#image2{
+    background-image: url('https://reacy-gym-page.netlify.app/static/media/section_bg01.3b5070e29fd1f24cbe55.png');
+    background-size: cover;
+    background-position: center;
+}
+#image3{
+    background-image: url('https://reacy-gym-page.netlify.app/static/media/blog1.dee680ca305e48343581.png');
+    background-size: cover;
+    background-position: center;
+}
