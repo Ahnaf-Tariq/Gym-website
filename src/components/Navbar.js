@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 
 export const Navbar = () => {
@@ -30,7 +30,7 @@ export const Navbar = () => {
         }, 500);
 
         return () => clearInterval(interval);
-    }, [step, isDisappearing]);
+    }, [step, isDisappearing, words]);
 
 
     const [navbg, setNavBg] = useState('bg-transparent')
@@ -55,11 +55,11 @@ export const Navbar = () => {
     const clicked = () => {
         setUlVisible(!ulVisible)
     }
-    
+
     return (
         <div>
             <div className="w-full h-screen" id="image1">
-                <div className={`${navbg} fixed w-full z-10 p-4`}> 
+                <div className={`${navbg} fixed w-full z-10 p-4`}>
                     <div className="flex justify-around">
                         <div className="flex flex-col">
                             <img className="xxsm:h-8 xsm:h-10" alt="Gym Logo" src="/logo-gym.png" />

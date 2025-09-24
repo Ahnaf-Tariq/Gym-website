@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom"
 import { Services } from "./Services"
-import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 export const Moreservices = () => {
     const navigation2 = useNavigate()
